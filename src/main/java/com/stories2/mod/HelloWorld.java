@@ -21,16 +21,16 @@ public class HelloWorld {
 
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent initEvent) {
-		
+		System.out.println("[HelloWorld/Info] [preInit]: hello pre init event");
 	}
 	
 	@EventHandler
 	public void Init(FMLInitializationEvent initEvent) {
-		
+		System.out.println("[HelloWorld/Info] [Init]: hello init event");
 	}
 	
 	@EventHandler
 	public void PostInit(FMLPostInitializationEvent initEvent) {
-		
+		System.out.println("[HelloWorld/Info] [PostInit]: hello post init event");
 	}
 }
