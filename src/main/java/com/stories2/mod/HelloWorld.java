@@ -2,6 +2,7 @@ package com.stories2.mod;
 
 import com.stories2.mod.proxy.CommonProxy;
 
+import init.ModItems;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -22,11 +23,15 @@ public class HelloWorld {
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent initEvent) {
 		System.out.println("[HelloWorld/Info] [preInit]: hello pre init event");
+		
+		ModItems.init();
+		ModItems.register();
 	}
 	
 	@EventHandler
 	public void Init(FMLInitializationEvent initEvent) {
 		System.out.println("[HelloWorld/Info] [Init]: hello init event");
+		proxy.init();
 	}
 	
 	@EventHandler
