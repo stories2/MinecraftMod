@@ -12,4 +12,27 @@ public class Reference {
 		CLIENT_PROXY_CLASS = "com.stories2.mod.proxy.ClientProxy",
 		COMMON_PROXY_CLASS = "com.stories2.mod.proxy.CommonProxy",
 		SERVER_PROXY_CLASS = "com.stories2.mod.proxy.ServerProxy";
+	
+	public static enum 
+//		items
+		TestingItems {
+			OBSIDIANINGOT("obsidianingot", "ItemObsidianingot");
+		
+			private String 
+				unlocalizedName,
+				registryName;
+		
+			TestingItems(String unlocalizedName, String registryName) {
+				this.unlocalizedName = unlocalizedName;
+				this.registryName = registryName;
+			}
+			
+			public String getUnlocalizedName() {
+				return this.unlocalizedName;
+			}
+			
+			public String getRegistryName() {
+				return this.registryName;
+			}
+	}
 }
