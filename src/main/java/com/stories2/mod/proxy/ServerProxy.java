@@ -1,5 +1,5 @@
 package com.stories2.mod.proxy;
 
-public class ServerProxy {
+public class ServerProxy implements CommonProxy{
 
 }
