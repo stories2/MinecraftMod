@@ -25,6 +25,20 @@ chmod +x gradlew
 
 다음 eclipse 폴더를 eclipse 툴로 열어주면 된다. 
 
+## Testing
+
+- 커스텀 블록 소환 방법
+
+게임 내부로 진입 후 명령어 입력
+```
+/give <player name> <MOD_ID>:<ITEM NAME>
+```
+
+예제
+```
+/give player567 sm:ItemObsidianingot
+```
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
