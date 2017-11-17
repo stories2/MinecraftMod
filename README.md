@@ -6,6 +6,7 @@
 
 모드 제작 [강의](https://www.youtube.com/watch?v=sXA5qZT8SYo)가 존재한다.
 작업 환경은 `MacOS High Sierra` 이며 작업 툴은 `Eclipse OXYGEN`을 사용중이다.
+테스트 하는 마인크래프트 버전은 `1.11.2` 이다.
 
 ### 작업환경 셋팅
 
